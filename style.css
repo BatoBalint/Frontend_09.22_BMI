@@ -88,6 +88,10 @@ h2 {
   padding: 20px 0px;
 }
 
+.selectedBmiTableRow td {
+  background-color: orange;
+}
+
 .bmiTable tr:first-child td{
   border: none;
 }
