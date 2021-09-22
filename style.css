@@ -41,6 +41,10 @@ h2 {
   font-weight: normal;
 }
 
+#idealisTesttomegTD {
+  font-weight: bold;
+}
+
 .Head {
   background-color: orange;
   padding: 8pt;
@@ -77,7 +81,6 @@ h2 {
 .bmiTableRow {
   color: black;
   text-transform: uppercase;
-  width: 60%;
 }
 
 .bmiTableRow td {
@@ -96,6 +99,13 @@ h2 {
   border-collapse: collapse
 }
 
-.bmiTable td {
+.idealisTable td {
+  color: black;
+  width: 60%;
+}
 
+.idealisTable td:first-child {
+  color: orange;
+  width: 40%;
+  text-align: center;
 }
