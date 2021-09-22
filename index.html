@@ -13,7 +13,7 @@
           <td class="tableText">Írja be cm-ben számított testmagasságát. (cipő nélkül mérve):</td>
           <td class="tableForm">
             <form class="" action="index.html" method="post">
-              <input type="number" name="" value="">
+              <input id="magassag" type="number" name="magassag" value="">
             </form>
         </td>
           <td class="tableUnit">cm</td>
@@ -22,13 +22,13 @@
           <td class="tableText">Írja be kg-ban számított testsúlyát. (cipő nélkül mérve):</td>
           <td class="tableForm">
             <form class="" action="index.html" method="post">
-              <input type="number" name="" value="">
+              <input id="suly" type="number" name="suly" value="">
             </form>
           </td>
           <td class="tableUnit">kg</td>
         </tr>
         <tr>
-          <td colspan="3"><button type="button" name="button">Számítás</button></td>
+          <td colspan="3"><button type="button" name="button" onclick="BMISzamitas()">Számítás</button></td>
         </tr>
       </table>
     </div>
