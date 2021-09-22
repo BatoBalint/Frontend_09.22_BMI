@@ -7,6 +7,61 @@
     <title>BMI Kalkulátor</title>
   </head>
   <body>
+    <div class="Head">
+      <table>
+        <tr>
+          <td class="tableText">Írja be cm-ben számított testmagasságát. (cipő nélkül mérve):</td>
+          <td class="tableForm">
+            <form class="" action="index.html" method="post">
+              <input type="number" name="" value="">
+            </form>
+        </td>
+          <td class="tableUnit">cm</td>
+        </tr>
+        <tr>
+          <td class="tableText">Írja be kg-ban számított testsúlyát. (cipő nélkül mérve):</td>
+          <td class="tableForm">
+            <form class="" action="index.html" method="post">
+              <input type="number" name="" value="">
+            </form>
+          </td>
+          <td class="tableUnit">kg</td>
+        </tr>
+        <tr>
+          <td colspan="3"><button type="button" name="button">Számítás</button></td>
+        </tr>
+      </table>
+    </div>
 
+    <div class="Body">
+      <h2>Az ön bmi értéke: <span class="bmiResult"></span></h2>
+
+      <table class="bmiTable">
+        <tr class="bmiTableRow">
+          <td>18,5 vagy kevesebb</td>
+          <td>sovány</td>
+        </tr>
+        <tr class="bmiTableRow">
+          <td>18,5 - 28,9</td>
+          <td>normál</td>
+        </tr>
+        <tr class="bmiTableRow">
+          <td>25 - 29,9</td>
+          <td>túlsúly</td>
+        </tr>
+        <tr class="bmiTableRow">
+          <td>30 - 34,9</td>
+          <td>i. fokú elhízás</td>
+        </tr>
+        <tr class="bmiTableRow">
+          <td>35 - 39,9</td>
+          <td>ii. fokú elhízás</td>
+        </tr>
+        <tr class="bmiTableRow">
+          <td>40 vagy több</td>
+          <td>iii. fokú elhízás</td>
+        </tr>
+      </table>
+    </div>
   </body>
 </html>

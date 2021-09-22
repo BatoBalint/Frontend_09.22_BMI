@@ -1,0 +1,73 @@
+body {
+  font-family: "Arial";
+}
+
+button {
+  border: none;
+  background-color: white;
+  color: orange;
+  padding: 5pt 10pt;
+  font-size: 12pt;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 8pt 0pt;
+}
+
+input {
+  width: 80%;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 16pt;
+}
+
+.Body {
+  color: orange;
+}
+
+.bmiResult {
+  font-style: italic;
+}
+
+.Head {
+  background-color: orange;
+  padding: 8pt;
+  color: white;
+}
+
+.tableText {
+  width: 75%;
+}
+
+.tableForm {
+  width: 20%;
+}
+
+.tableUnit {
+  width: 5%;
+}
+
+.bmiTable {
+  width: 80%;
+  margin: auto;
+}
+
+.bmiTableRow td:first-child{
+  color: black;
+  text-transform: none;
+  font-weight: bold;
+  text-align: center;
+  width: 40%;
+}
+
+.bmiTableRow {
+  color: black;
+  text-transform: uppercase;
+  width: 60%;
+}
