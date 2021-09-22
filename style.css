@@ -31,8 +31,14 @@ h2 {
   color: orange;
 }
 
-.bmiResult {
+#bmiResult {
   font-style: italic;
+  font-weight: normal;
+}
+
+#idealisTesttomeg {
+  font-style: italic;
+  font-weight: normal;
 }
 
 .Head {
@@ -56,6 +62,8 @@ h2 {
 .bmiTable {
   width: 80%;
   margin: auto;
+  padding: 0px;
+  border-collapse: collapse
 }
 
 .bmiTableRow td:first-child{
@@ -70,4 +78,24 @@ h2 {
   color: black;
   text-transform: uppercase;
   width: 60%;
+}
+
+.bmiTableRow td {
+  border-top: 1px solid grey;
+  padding: 20px 0px;
+}
+
+.bmiTable tr:first-child td{
+  border: none;
+}
+
+.idealisTable {
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+  border-collapse: collapse
+}
+
+.bmiTable td {
+
 }
