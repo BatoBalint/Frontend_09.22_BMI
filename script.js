@@ -32,4 +32,12 @@ function BMISzamitas() {
   else {
     tableRows[5].classList.add('selectedBmiTableRow');
   }
+
+  let idealisSuly = (((parseInt(magassag.value) / 100) ** 2)*21.7).toFixed(1);
+  let alsoHatar = (((parseInt(magassag.value) / 100) ** 2)*18.5).toFixed(1);//parseInt(suly.value) / (parseInt(magassag.value) / 100) ** 2;
+  let felsoHatar = (((parseInt(magassag.value) / 100) ** 2)*24.9).toFixed(1);
+
+  document.getElementById('idealisTesttomegSpan').innerHTML = idealisSuly;
+  document.getElementById('idealisTesttomegTD').innerHTML = alsoHatar + ' - ' + felsoHatar + ' kg';
+
 }
